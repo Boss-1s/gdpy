@@ -495,7 +495,7 @@ dev = [
     { include-group = "test" },
 ]
 test = [
-    "pylint==4.0.8",
+    "pylint==4.0.9",
     "griffe==2.3.0",
     "pyproject==1!0.2.1",
     "pylint-per-file-ignores==3.2.1",
