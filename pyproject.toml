@@ -30,6 +30,7 @@ keywords = [
     "game recreation",
 ]
 dependencies = [
+    "numpy>=2.5.3",
     "rich==15.0.0",
 ]
 
