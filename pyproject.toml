@@ -30,8 +30,11 @@ keywords = [
     "game recreation",
 ]
 dependencies = [
+    "key-multivalue-storage~=1.4",
+    "matplotlib>=3.11.2",
     "numpy>=2.5.3",
     "rich==15.0.0",
+    "textual>=8.2.8",
 ]
 
 [project.urls]
@@ -228,7 +231,7 @@ single-line-if-stmt = false
 
 [tool.pylint.imports]
 # List of modules that can be imported at any level, not just the top level one.
-allow-any-import-level = ["key_multivalue_storage", ".", "Storage"]
+allow-any-import-level = ["gd_oop", "gd_struct"]
 
 # Allow explicit reexports by alias from a package __init__.
 allow-reexport-from-package = true
@@ -514,3 +517,4 @@ omit = [
 
 [tool.uv.sources]
 dill = { git = "https://github.com/uqfoundation/dill" }
+key-multivalue-storage = { git = "https://github.com/boss-1s/key_multivalue_storage", rev = "semver1.4.x" }
