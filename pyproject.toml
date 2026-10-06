@@ -499,7 +499,7 @@ dev = [
 ]
 test = [
     "pylint==4.0.9",
-    "griffe==2.3.0",
+    "griffe==2.3.2",
     "pyproject==1!0.2.1",
     "pylint-per-file-ignores==3.2.1",
     "coverage==7.16.2",
