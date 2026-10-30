@@ -1,1 +1,3 @@
-if robtop doesnt release 2.209 then this project will never be started
+~~if robtop doesnt release 2.209 then this project will never be started~~
+
+Ah yes, finally. I can start this freaking thing. First off, a gmd file with all the objects in the game.....
